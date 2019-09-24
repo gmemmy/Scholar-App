@@ -9,6 +9,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 const styles = {
   root: {
     flexGrow: 1,
+  },
+  navbar: {
     background: '#1E359B'
   }
 }
@@ -19,7 +21,7 @@ class Navbar extends Component {
     return (
       <div className={classes.root}>
         <AppBar position="static">
-          <Toolbar>
+          <Toolbar className={classes.navbar}>
             <img src={icon} alt="icon" style={{ width:"40", height:"40"}} />
           </Toolbar>
         </AppBar>
