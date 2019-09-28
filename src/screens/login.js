@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Authentication from '../components/social Authentication/Authentication';
+import Authentication from '../components/authentication/login';
 
 
 class Login extends Component {

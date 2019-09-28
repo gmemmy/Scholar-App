@@ -35,9 +35,9 @@ const styles = ({
   socialPaper: {
     height: 68.9,
     width: 304.51,
-    marginLeft: 320,
+    marginLeft: 310,
     borderRadius: 8,
-    position: 'relative'
+    position: 'relative',
   },
   authPaper: {
     height: 79.78,

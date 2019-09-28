@@ -8,6 +8,7 @@ import themeFile from './utils/theme'
 // Components
 import Navbar from './components/Navbar';
 import Login from './screens/login';
+import SignUp from './screens/signup';
 
 export const theme = createMuiTheme(themeFile);
 
@@ -19,7 +20,8 @@ class App extends Component {
           <Navbar />
           <div className="App">
             <Switch>
-              <Route exact path='/' component={Login} />
+              <Route exact path='/login' component={Login} />
+              <Route exact path='/signup' component={SignUp} />
             </Switch>
           </div>
         </Router>
